@@ -1,0 +1,17 @@
+io\confluent\connector\verification\constants\ApplicationConstants.class
+io\confluent\connector\verification\executor\TreeCopyFileVisitor.class
+io\confluent\connector\verification\repository\TestScriptsRepository.class
+io\confluent\connector\verification\util\LaunchDocker.class
+io\confluent\connector\verification\executor\ProgressCallback.class
+io\confluent\connector\verification\repository\TestResultsRepository.class
+io\confluent\connector\verification\Application.class
+io\confluent\connector\verification\executor\BinaryFileWriter.class
+io\confluent\connector\verification\executor\RequestTypeProcessor.class
+io\confluent\connector\verification\model\TestScripts.class
+io\confluent\connector\verification\executor\BinaryFileDownloader.class
+io\confluent\connector\verification\util\StopDocker.class
+io\confluent\connector\verification\repository\ReleaseInfoRepository.class
+io\confluent\connector\verification\executor\TestScriptExecutor.class
+io\confluent\connector\verification\model\TestResults.class
+io\confluent\connector\verification\model\ReleaseInfo.class
+io\confluent\connector\verification\executor\GithubIntegration.class

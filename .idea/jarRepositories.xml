@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="confluent" />
+      <option name="name" value="Confluent" />
+      <option name="url" value="https://packages.confluent.io/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mule-ee-releases" />
+      <option name="name" value="MuleEE Releases Repository" />
+      <option name="url" value="https://repository-master.mulesoft.org/nexus/content/repositories/releases-ee/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mulesoft-groups-public" />
+      <option name="name" value="MuleSoft Public Repository" />
+      <option name="url" value="https://repository.mulesoft.org/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="license4j-runtime-library" />
+      <option name="name" value="License4J Runtime Library Maven Repository" />
+      <option name="url" value="https://www.license4j.com/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="muleforge-releases" />
+      <option name="name" value="MuleForge Snapshot Repository" />
+      <option name="url" value="https://repository-master.mulesoft.org/nexus/content/repositories/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mulesoft-releases" />
+      <option name="name" value="MuleSoft Repository" />
+      <option name="url" value="https://repository.mulesoft.org/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mulesoft-snapshots" />
+      <option name="name" value="MuleSoft Snapshot Repository" />
+      <option name="url" value="https://repository.mulesoft.org/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mulesoft-groups-public-snaphosts" />
+      <option name="name" value="MuleSoft Public Repository" />
+      <option name="url" value="https://repository-master.mulesoft.org/nexus/content/groups/public/" />
+    </remote-repository>
+  </component>
+</project>

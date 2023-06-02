@@ -1,0 +1,10 @@
+version: '3'
+services:
+  partner-connector:
+    image: "scylladb/scylla:5.0.4"
+    container_name: scylla
+    volumes:
+      - /tmp:/var/lib/scylla
+    ports:
+      - "127.0.0.1:9042:9042"
+      - "127.0.0.1:9160:9160"

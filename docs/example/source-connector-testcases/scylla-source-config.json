@@ -1,0 +1,13 @@
+{
+	"name": "Scylla",
+	"config": {
+		"connector.class": "com.scylladb.cdc.debezium.connector.ScyllaConnector",
+		"key.converter": "org.apache.kafka.connect.json.JsonConverter",
+		"value.converter": "org.apache.kafka.connect.json.JsonConverter",
+		"scylla.cluster.ip.addresses": "172.23.145.181:9042",
+		"scylla.name": "ConnectorTestConvertersJSONWithoutSchema",
+		"scylla.table.names": "quickstart_keyspace.orders",
+		"key.converter.schemas.enable": false,
+		"value.converter.schemas.enable": false
+	}
+}

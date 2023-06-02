@@ -1,0 +1,17 @@
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\repository\TestScriptsRepository.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\executor\ProgressCallback.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\executor\BinaryFileWriter.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\repository\TestResultsRepository.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\executor\BinaryFileDownloader.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\repository\ReleaseInfoRepository.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\executor\GithubIntegration.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\util\LaunchDocker.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\executor\TreeCopyFileVisitor.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\util\StopDocker.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\Application.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\executor\RequestTypeProcessor.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\constants\ApplicationConstants.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\model\TestScripts.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\executor\TestScriptExecutor.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\model\ReleaseInfo.java
+C:\Projects\Confluent-Verification-Automation\automation\src\main\java\io\confluent\connector\verification\model\TestResults.java
