@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/connector-verification-automation.iml" filepath="$PROJECT_DIR$/connector-verification-automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/automation.iml" filepath="$PROJECT_DIR$/.idea/automation.iml" />
     </modules>
   </component>
 </project>

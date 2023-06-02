@@ -8,14 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="connector-verification-automation" />
+        <module name="automation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="automation" target="11" />
       <module name="connector-verification-automation" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="automation" options="-parameters" />
       <module name="connector-verification-automation" options="-parameters" />
     </option>
   </component>
