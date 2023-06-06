@@ -43,17 +43,19 @@ public class Application implements ApplicationRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
+		System.out.println(args);
 	}
 
 	@Override
 	public void run(ApplicationArguments arguments) throws IOException, InterruptedException {
-
+		System.out.println(arguments);
 		try {
 			List<String> args = arguments.getNonOptionArgs();
+			System.out.println(args);
 			if (args.get(0).equals("Start")) {
-
 				Set<ReleaseInfo> releaseInfos = githubIntegration.getPartnerRepoDetails(args);
 				if (!releaseInfos.isEmpty()) {
+
 					int exitCode = launchDocker.launchDockerComposeWithDefaultConfig();
 					if (exitCode != 0) {
 						LOGGER.error("Unexpected error occurred which configuring docker... Please check the log");
