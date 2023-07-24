@@ -69,7 +69,29 @@ public class Application implements ApplicationRunner {
 					testScriptExecutor.runTests(releaseInfo);
 				}
 
-			} else {
+			}
+
+
+			//for direct
+			else if(args.get(0).equals("StartDocker"))
+			{
+				int exitCode = launchDocker.launchDockerComposeWithDefaultConfig();
+				if (exitCode != 0) {
+					LOGGER.error("Unexpected error occurred which configuring docker... Please check the log");
+					exit(exitCode);
+				}
+				LOGGER.info("Docker is Ready");
+
+//				for (ReleaseInfo releaseInfo : releaseInfos) {
+//					testScriptExecutor.runTests(releaseInfo);
+//				}
+			}
+			//till here
+
+
+
+			else
+			{
 				int exitCode = stopDocker.stopDockerComposeWithDefaultConfig();
 				if (exitCode != 0) {
 					LOGGER.error("Unexpected error occurred which stopping docker... Please check the log");

@@ -35,6 +35,7 @@ public class LaunchDocker {
         Map<String, String> dockerEnvInfo = new HashMap<>();
         dockerEnvInfo.put(ApplicationConstants.DOCKER_COMPOSE_ENV_FILE,
                 String.valueOf(Paths.get(docker_compose_file_path)));
+        System.out.println(docker_compose_file_path);
         File dockerCurWrkDir = new File(Paths.get(docker_compose_file_path).getParent().toString());
         List<String> dockerComposeCommandUp = Splitter.onPattern(" ").omitEmptyStrings()
                 .splitToList(ApplicationConstants.DOCKER_COMPOSE_EXE + " " + ApplicationConstants.DOCKER_COMPOSE_UP);

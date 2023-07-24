@@ -110,10 +110,16 @@ public class GithubIntegration {
                     directory.mkdir();
                 }
                 Path dest = Paths.get(docker_volume_location).resolve(source.getFileName());
-                if(new File(String.valueOf(source)).isDirectory())
+              //  System.out.println("***"+dest);
+
+                if(new File(String.valueOf(source)).isDirectory()) {
+                   // System.out.println("***" + dest);
                     copyDirectoryFileVisitor(String.valueOf(source), String.valueOf(dest));
-                else
+                }else {
+                    System.out.println("***"+source);
+                    System.out.println("***" + dest);
                     FileCopyUtils.copy(new File(String.valueOf(source)), new File(String.valueOf(dest)));
+                }
            }
            releaseInfos.add(record);
         }
